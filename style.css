@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    /* background-color: rgb(213, 198, 228); */
+    padding: 34px;
+    margin: auto;
+}
+.container h1{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+}
+input, textarea{
+    background-color: rgb(236, 233, 228);
+    display: block;
+    width: 80%;
+    padding: 5px;
+    margin: 11px 0px;
+    font-size: 16px;
+    border: 2px black;
+    border-radius: 6px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2p solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+.submitMSG{
+    color: blue;
+}
